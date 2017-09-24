@@ -43,4 +43,4 @@ Comando que lista que tem a palavra teste e com 2 e 3
 ls teste[2-3]*
 teste1aula.txt  teste2aula.txt  teste3aula.txt
 
-
+cat = lista o conteudo de um arquivo
