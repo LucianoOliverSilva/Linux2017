@@ -1,3 +1,7 @@
+
+Configuracao usuario no git = git config --global user.email "you@example.com"
+git config --local -l
+
 intalando o git = sudo apt-get install git-core
 
 clonando uma pasta do github = git clone xxxxxxxxxxxxxxxxxxxxxxxxx
