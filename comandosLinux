@@ -142,7 +142,7 @@ xxxxxxxxxxxxxxxxxxxx Trabalhando com arquivos xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     rm -Rf = remove resursivamente todos os arquivos e diretorios de seu sistema linux ate a raiz - nuca deve-se executar este comando. 
   
 
-    Exercicios
+    Exercicios 1)
 
  
     Crie dois arquivos vazios teste1 & teste2 com timestamp: 14 de março de 2018 2:00 PM usando o comando touch.
@@ -180,3 +180,26 @@ xxxxxxxxxxxxxxxxxxxx Trabalhando com arquivos xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     4 - head
     
     R: less
+    
+    Exercicios 2)
+    
+    1) A partir da sua pasta de trabalho, crie uma pasta chamada LabSO.YYYYMMDD.HHMM , 
+       substituindo a máscara com a data e hora atuais
+    2) Entre nessa pasta abra outra tela de terminal e entre na mesma pasta
+     
+    3) Crie um programa em Python (linhas.py) para gerar 1000 linhas : "Esta é linha 1", "Esta é linha 2",...
+    
+    4) Execute o programa linhas direcionando a saida para o arquivo linhas.txt (python linha.py)
+    
+    5) Na outra janela, execute um comando linux para visualizar todo o arquivo linhas.txt
+     
+    6) Execute o comando para visualizar apenas as primeiras linhas do arquivo
+    
+    7) Janela 1: Execute um comando linux para monitorar o arquivo linhas.txt de forma contínua, 
+       sem parar quando chegar ao fim do arquivo. (dica: man tail)
+       
+    8) Janela 2: Execute o programa linhas direcionando a saída para o arquivo linhas.txt
+       Repita o passo anterior várias vezes e olhe o resultado na janela 1
+   
+
+
