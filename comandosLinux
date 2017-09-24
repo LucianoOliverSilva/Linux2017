@@ -144,26 +144,32 @@ xxxxxxxxxxxxxxxxxxxx Trabalhando com arquivos xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     Exercicios
 
  
-    Crie dois arquivos vazios test1 & test2 com timestamp: 14 de março de 2018 2:00 PM usando o comando touch.
+    Crie dois arquivos vazios teste1 & teste2 com timestamp: 14 de março de 2018 2:00 PM usando o comando touch.
+    R: touch -t 1803141600 teste3
+       touch -t 1803141600 teste4
 
 
     Verifique a existência dos arquivos test1 e test2 usando o comando ls -l.
+    R: Ls -l
 
 
-    Renomeie o arquivo test1 para new_test1 usando o comando mv.
+    Renomeie o arquivo teste1 para new_test1 usando o comando mv.
+    R: mv teste1 new_teste
 
-
-    Remova o test2 usando a opção rm sem opções.
+    Remova o teste2 usando a opção rm sem opções.
+    R: rm teste2
 
 
     Remova o arquivo new_test1 usando o comando rm sem nenhuma opção.
+    R: rm new_teste1
 
 
     Crie um diretório dir1, usando o comando mkdir.
+    R: mkdir dir1
 
 
     Remova o diretório dir1 usando o comando rmdir sem quaisquer opções.
-
+    R: rmdir dir1
     
     Utilizando qual comando abaixo é possível visualizar todo o arquivo com possibilidade de SCROLL ?
 
@@ -171,4 +177,5 @@ xxxxxxxxxxxxxxxxxxxx Trabalhando com arquivos xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     2 - cat
     3 - less
     4 - head
-
+    
+    R: less
