@@ -1,0 +1,40 @@
+intalando o git = sudo apt-get install git-core
+
+clonando uma pasta do github = git clone xxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+Comandos usados no linux
+
+pwd = mostrar o caminho atual
+
+ls = lista o conteudo da pasta atual
+
+cd = mudar / navegar entre diretorios
+
+mkdir = cria diretorio
+
+rmdir = remove os diretorios que nao possuem arquivos
+
+rm =  remove os diretorios e todos arquivos
+
+pushd = empilha a pasta / diretorio atual
+
+mv = move arquivos e pastas
+
+cp = copia arquivor e ou pastas 
+
+cp -r = copia todos arquivos
+
+touch = cria um arquivo de texto
+
+Exemplos do uso do ls = ls teste?aula.txt ira listar todos que sao teste1aula.txt
+
+Comando para listar todo mundo que tem teste
+ls teste*
+teste1aula.txt  teste2aula.txt  teste3aula.txt
+
+Comando que lista que tem a palavra teste e com 2 e 3
+ls teste[2-3]*
+teste1aula.txt  teste2aula.txt  teste3aula.txt
+
+
