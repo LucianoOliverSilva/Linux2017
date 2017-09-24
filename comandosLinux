@@ -48,3 +48,127 @@ ls teste[2-3]*
 teste1aula.txt  teste2aula.txt  teste3aula.txt
 
 cat = lista o conteudo de um arquivo
+
+cd - = utilizado para voltar no diretorio acessado
+
+? = existe um caracter qualquer Ex = ls my?file
+
+* = qualquer caracter, nenhum ou varias vezes Ex = ls m*file
+
+| = redireciona a saida de um comando para o outro comando Ex = ls ~ | xargs wc
+
+> = redireciona a saida Ex: cmd > out_file.txt
+
+> = redireciona a entrada Ex: cmd < in_file.txt
+
+
+xxxxxxxxxxxxxxxxxxxx   Caminhos Absolutos e relativos xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+Caminho absoluto: Um caminho absoluto começa com o diretório raiz e segue a árvore, ramo por ramo, até chegar ao diretório ou arquivo desejado.
+                  Caminhos absolutos sempre começam com /
+
+Caminho relativo: Um nome de caminho relativo começa a partir do atual diretório de trabalho. Caminhos relativos nunca começam com /
+
+Por exemplo:Suponha que você esteja trabalhando atualmente em seu diretório pessoal e queira mover para o diretório /usr/bin.
+             As duas formas seguintes o levarão ao mesmo diretório do seu diretório pessoal:
+
+Método de caminho absoluto: $ cd /usr/bin
+Método de nome de caminho relativo: $ cd ../../usr/bin
+
+Neste exemplo, o método caminho absoluto tem menos dígitos.
+
+
+xxxxxxxxxxxxxxxxxxxx Trabalhando com arquivos xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+    ls: Lista todos os arquivos do diretório
+    df: Mostra a quantidade de espaço usada no disco rígido
+    top: Mostra o uso da memória
+    cd: Acessa uma determinada pasta (diretório)
+    mkdir: Cria um diretório
+    rm: Remove um arquivo/diretório
+    cat: Abre um arquivo
+    vi: Abre o editor vi(lê-se viai) para editar/criar arquivos
+    nano : abre um editor.
+
+    tac: o contrario do comando cat. escreve o conteudo do arquivo de tras para frente
+    less: semelhante ao more. exibe arquivo de texto.
+    head: mostra as primeiras linhas de um arquivo Ex: head -5 mostra as 5 primeiras linhas de um arquivo.   
+    tail: ao contrario do comando head mostra-nos as ultimas linhas de um arquivo. Ex: tail -5 mostra as 5 ultimas linhas de um arquivo
+    touch: é frequentemente usado para definir ou atualizar o acesso, alterar e modificar as datas de arquivos.
+           Por predefinição, restaura o timestamp de um arquivo para corresponder à hora atual.
+    
+    No entanto, você tambem pode criar um arquivo vazio usando o touch:
+    $ touch <filename>
+
+    touch oferece várias opções, como esta:
+
+    A opção -t permite que você defina o timestamp.
+    Para definir o timestamp para uma hora específica:
+    $ touch -t 03201600 meuarquivo
+    $ ls -l
+
+    Isso define o arquivo, meuarquivo, timestamp para 4 p.m., 20 de março (03 20 1600).    
+  
+    Retornar o tamanho de arquivo ou diretório em bytes (KB/MB) 
+
+    $ du -hsb (nome do arquivo) => retorna o tamanho sempre em bytes;
+    $ du -hsk (nome do arquivo) => retorna o tamanho sempre em KB;
+    $ du -hsm (nome do arquivo) => retorna o tamanho sempre em MB;       
+
+	
+       xxxxxxx   Renomenado ou apagando um arquivo  xxxxxxxxxxxx
+
+    rmdir = remove os diretorios que nao possuem arquivos
+
+    rm =  remove os diretorios e todos arquivos
+ 
+    pushd = empilha a pasta / diretorio atual
+
+    mv = move arquivos e pastas
+
+    cp = copia arquivor e ou pastas
+
+    cp -r = copia todos arquivos
+ 
+    rm -r = usado para excluir um diretorio ocupado
+    
+    rm -f = remove com forca um arquivo 
+ 
+    rm -i = interativamente remove um arquivo
+
+    rm -Rf = remove resursivamente todos os arquivos e diretorios de seu sistema linux ate a raiz - nuca deve-se executar este comando. 
+  
+
+    Exercicios
+
+ 
+    Crie dois arquivos vazios test1 & test2 com timestamp: 14 de março de 2018 2:00 PM usando o comando touch.
+
+
+    Verifique a existência dos arquivos test1 e test2 usando o comando ls -l.
+
+
+    Renomeie o arquivo test1 para new_test1 usando o comando mv.
+
+
+    Remova o test2 usando a opção rm sem opções.
+
+
+    Remova o arquivo new_test1 usando o comando rm sem nenhuma opção.
+
+
+    Crie um diretório dir1, usando o comando mkdir.
+
+
+    Remova o diretório dir1 usando o comando rmdir sem quaisquer opções.
+
+    
+    Utilizando qual comando abaixo é possível visualizar todo o arquivo com possibilidade de SCROLL ?
+
+    1 - tail
+    2 - cat
+    3 - less
+    4 - head
+
