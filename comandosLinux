@@ -2,8 +2,14 @@ intalando o git = sudo apt-get install git-core
 
 clonando uma pasta do github = git clone xxxxxxxxxxxxxxxxxxxxxxxxx
 
+Subindo uma pasta para o github = dentro da pasta do github
+                                  git add *
+                                  git commit -m "xxxxx"
+                                  git push
+                                  usuario e senha
 
-Comandos usados no linux
+
+ xxxxxxxxxx  Comandos usados no linux xxxxxxxxxxxxxxxxxx
 
 pwd = mostrar o caminho atual
 
