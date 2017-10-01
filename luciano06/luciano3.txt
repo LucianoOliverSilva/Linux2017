@@ -1,0 +1,11 @@
+./luciano3.txt
+./luciano2.txt
+./luciano1.txt
+./prova1luciano-2017.txt
+./prova1-2017
+./aula3/testeaula3.txt
+./aula3/testeaula2.txt
+./aula3/testeaula1.txt
+./aula3/minhapasta2/meuarquivo.txt
+./aula12-09/luciano.txt
+./aula12-09/linhas.txt
