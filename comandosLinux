@@ -315,3 +315,12 @@ a partir de sua pasta principal e direcionar a saida
 para o segundo arquivo do item 3.
 
 Resposta: ls > luciano2.txt
+
+11 - Clonar o repositório https://github.com/salgado/labso.git 
+
+Resposta : git clone https://github.com/salgado/labso.git
+
+12 - Copiar todo o diretorio trabalho para a sua pasta trabalho1-labso
+
+Resposta : cd trabalho1-labso
+           cp -r ../labso/trabalho .
