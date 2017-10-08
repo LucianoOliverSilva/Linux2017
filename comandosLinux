@@ -301,3 +301,7 @@ a partir de sua pasta principal e direcionar a saida
 para o segundo arquivo do item 3.
 
 Resposta: ls > luciano2.txt
+
+11 - Mostrar todo o programa prog.c se os comentarios
+
+resposta : grep -v '[//]' prog.c 
