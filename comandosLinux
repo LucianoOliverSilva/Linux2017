@@ -84,19 +84,31 @@ xxxxxxxxxxxxxxxxxxxx Trabalhando com arquivos xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
     ls: Lista todos os arquivos do diretório
+    
     df: Mostra a quantidade de espaço usada no disco rígido
+    
     top: Mostra o uso da memória
+    
     cd: Acessa uma determinada pasta (diretório)
+    
     mkdir: Cria um diretório
+    
     rm: Remove um arquivo/diretório
+    
     cat: Abre um arquivo
+    
     vi: Abre o editor vi(lê-se viai) para editar/criar arquivos
+    
     nano : abre um editor.
 
     tac: o contrario do comando cat. escreve o conteudo do arquivo de tras para frente
+    
     less: semelhante ao more. exibe arquivo de texto.
+    
     head: mostra as primeiras linhas de um arquivo Ex: head -5 mostra as 5 primeiras linhas de um arquivo.   
+    
     tail: ao contrario do comando head mostra-nos as ultimas linhas de um arquivo. Ex: tail -5 mostra as 5 ultimas linhas de um arquivo
+    
     touch: é frequentemente usado para definir ou atualizar o acesso, alterar e modificar as datas de arquivos.
            Por predefinição, restaura o timestamp de um arquivo para corresponder à hora atual.
     
@@ -106,7 +118,9 @@ xxxxxxxxxxxxxxxxxxxx Trabalhando com arquivos xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     touch oferece várias opções, como esta:
 
     A opção -t permite que você defina o timestamp.
+    
     Para definir o timestamp para uma hora específica:
+    
     $ touch -t 03201600 meuarquivo
     $ ls -l
 
@@ -302,6 +316,17 @@ para o segundo arquivo do item 3.
 
 Resposta: ls > luciano2.txt
 
+<<<<<<< HEAD
 11 - Mostrar todo o programa prog.c se os comentarios
 
 resposta : grep -v '[//]' prog.c 
+=======
+11 - Clonar o repositório https://github.com/salgado/labso.git 
+
+Resposta : git clone https://github.com/salgado/labso.git
+
+12 - Copiar todo o diretorio trabalho para a sua pasta trabalho1-labso
+
+Resposta : cd trabalho1-labso
+           cp -r ../labso/trabalho .
+>>>>>>> d8427495bece9da6ccc8fe30033786d406a78133
